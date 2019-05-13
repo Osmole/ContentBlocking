@@ -10,7 +10,7 @@
 m.baidu.com##.page-banner
 !Remove AD
 baidu.com##div[class^="ec_r"]
-!Fack baijiahao
+!Fuck baijiahao
 baidu.com##.c-result.result[data-log*="baijiahao"]
 !Remove short Vedio
 baidu.com##.c-result.result[new_srcid="4660"]
