@@ -1,0 +1,18 @@
+! Title: Fuck baijiaohao List
+! Description: Remove the promotion of baijiahao on Baidu Search Engine
+! Version: 1.0
+! TimeUpdated: 2019-05-13T09:22:10+03:00
+! Expires: 2 days (update frequency)
+! Homepage: https://github.com/Osmole/ContentBlocking
+! License: https://creativecommons.org/licenses/by-sa/3.0/
+! Start Code
+!Remove "Install app" suggestion
+m.baidu.com##.page-banner
+!Remove AD
+baidu.com##div[class^="ec_r"]
+!Fack baijiahao
+baidu.com##.c-result.result[data-log*="baijiahao"]
+!Remove short Vedio
+baidu.com##.c-result.result[new_srcid="4660"]
+!Remove mini app
+baidu.com##.c-result.result[new_srcid="38414"]
